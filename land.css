@@ -1,0 +1,84 @@
+/* Change the font color of the button to white */
+.collapse .btn {
+  color: white;
+  border-color: white;
+  margin-left: 2px; /* Ensure the button is aligned to the left */
+  padding-left: 5px;
+  white-space: nowrap; /* Ensure the button content stays on one line */
+}
+
+/* Custom font for the brand name */
+.navbar-brand-custom {
+  font-family: 'Dancing Script', cursive;
+}
+.navbar {
+  background-color: #ffffff;
+}
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+}
+.navbar-nav .nav-item {
+  padding: 0 .5rem;
+}
+.row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Services {
+  text-transform: uppercase; /* Corrected property name */
+}
+.card {
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 4px #000000;
+  transition: all 0.3s ease-in-out;
+  margin-inline: auto;
+}
+section.about {
+  text-transform: capitalize; /* Corrected property name */
+  background-color: #f8f9fa;
+  padding-bottom: 20px;
+}
+section.about h1 {
+  text-transform: capitalize; /* Ensure h1 in about section is capitalized */
+}
+.project.card {
+  background-color: red; /* Red background for project card */
+}
+.carousel-inner img {
+  width: 50%; /* Set the width of the carousel images to 75% */
+  height: 50%;
+  object-fit: cover; 
+  border-radius: 35%;
+  box-shadow: #61605f6b;/* Ensure the images cover the entire area without distortion */
+}
+section.test.container {
+  width: 75%;
+}
+
+section.contact{
+  background-color:#f8f9fa;
+  
+  
+}
+section.contact .social-media a {
+  padding: 0 0.5rem;
+  font-size: 1.3rem;
+}
+section.contact h1{
+  text-transform: capitalize;
+  padding-top: 50px;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  transition: all .3s;
+}
+a:not(.btn):hover {
+  color: #2c2a27;
+}
+.navbar-nav .nav-link {
+  transition: all 0.5s;
+}
+.navbar-nav .nav-link:hover {
+  color: #f5a841;
+}
